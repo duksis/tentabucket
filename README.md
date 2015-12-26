@@ -1,6 +1,6 @@
 # Tentabucket
 
-Simple [Bitbucket API][1] client library for Elixir
+Simple [Bitbucket API](https://confluence.atlassian.com/bitbucket/use-the-bitbucket-cloud-rest-apis-222724129.html) client library for Elixir
 
 ---
 
@@ -19,6 +19,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
         def application do
           [applications: [:tentabucket]]
         end
-
-
-[1]: https://confluence.atlassian.com/bitbucket/use-the-bitbucket-cloud-rest-apis-222724129.html Bitbucket Cloud REST API's
