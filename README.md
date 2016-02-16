@@ -1,6 +1,7 @@
 # Tentabucket
 
 [![Build Status](https://travis-ci.org/duksis/tentabucket.svg?branch=master)](https://travis-ci.org/duksis/tentabucket)
+[![Coverage Status](https://coveralls.io/repos/github/duksis/tentabucket/badge.svg?branch=master)](https://coveralls.io/github/duksis/tentabucket?branch=master)
 
 Simple [Bitbucket API](https://confluence.atlassian.com/bitbucket/use-the-bitbucket-cloud-rest-apis-222724129.html) client library for Elixir
 
