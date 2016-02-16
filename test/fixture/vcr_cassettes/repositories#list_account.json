@@ -1,0 +1,46 @@
+[
+  {
+    "request": {
+      "body": "\"\"",
+      "headers": {
+        "User-agent": "tentabucket"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.bitbucket.org/2.0/repositories/duksis"
+    },
+    "response": {
+      "body": "{\"pagelen\": 10, \"values\": [{\"scm\": \"git\", \"website\": \"\", \"has_wiki\": false, \"name\": \"tentabucket\", \"links\": {\"watchers\": {\"href\": \"https://api.bitbucket.org/2.0/repositories/duksis/tentabucket/watchers\"}, \"hooks\": {\"href\": \"https://api.bitbucket.org/2.0/repositories/duksis/tentabucket/hooks\"}, \"clone\": [{\"href\": \"https://bitbucket.org/duksis/tentabucket.git\", \"name\": \"https\"}, {\"href\": \"ssh://git@bitbucket.org/duksis/tentabucket.git\", \"name\": \"ssh\"}], \"self\": {\"href\": \"https://api.bitbucket.org/2.0/repositories/duksis/tentabucket\"}, \"html\": {\"href\": \"https://bitbucket.org/duksis/tentabucket\"}, \"avatar\": {\"href\": \"https://bitbucket.org/duksis/tentabucket/avatar/32/\"}, \"commits\": {\"href\": \"https://api.bitbucket.org/2.0/repositories/duksis/tentabucket/commits\"}, \"forks\": {\"href\": \"https://api.bitbucket.org/2.0/repositories/duksis/tentabucket/forks\"}, \"downloads\": {\"href\": \"https://api.bitbucket.org/2.0/repositories/duksis/tentabucket/downloads\"}, \"pullrequests\": {\"href\": \"https://api.bitbucket.org/2.0/repositories/duksis/tentabucket/pullrequests\"}}, \"fork_policy\": \"allow_forks\", \"uuid\": \"{9a69e39e-74e4-45e4-8d46-eb7dc5e06264}\", \"language\": \"elixir\", \"created_on\": \"2015-12-26T21:35:19.574732+00:00\", \"full_name\": \"duksis/tentabucket\", \"has_issues\": true, \"owner\": {\"username\": \"duksis\", \"display_name\": \"Hugo Duksis\", \"type\": \"user\", \"uuid\": \"{3ceb4390-459a-4ece-aa5a-356d73b9e8fd}\", \"links\": {\"self\": {\"href\": \"https://api.bitbucket.org/2.0/users/duksis\"}, \"html\": {\"href\": \"https://bitbucket.org/duksis/\"}, \"avatar\": {\"href\": \"https://bitbucket.org/account/duksis/avatar/32/\"}}}, \"updated_on\": \"2015-12-26T22:11:18.780716+00:00\", \"size\": 114753, \"type\": \"repository\", \"is_private\": false, \"description\": \"Simple Bitbucket API client for Elixir\"}], \"page\": 1, \"size\": 1}",
+      "headers": {
+        "Server": "nginx/1.6.2",
+        "Vary": "Authorization, Cookie",
+        "Cache-Control": "max-age=900",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Usage-Output-Ops": "0",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Date": "Tue, 16 Feb 2016 22:23:40 GMT",
+        "X-Usage-User-Time": "0.022279",
+        "X-Usage-System-Time": "0.012311",
+        "bbuserid": "",
+        "X-Served-By": "app-112",
+        "X-View-Name": "bitbucket.apps.repo2.api.v20.repo.RepositoriesHandler",
+        "X-Static-Version": "3b9e7b99f146",
+        "ETag": "\"691161ba26d4c18e687f2b5fc414b7b6\"",
+        "X-Content-Type-Options": "nosniff",
+        "X-Render-Time": "0.0374670028687",
+        "X-Accepted-OAuth-Scopes": "repository",
+        "Connection": "keep-alive",
+        "bbusername": "",
+        "X-Usage-Input-Ops": "0",
+        "X-Version": "3b9e7b99f146",
+        "X-Request-Count": "465",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Cache-Info": "not cacheable; request had a content length",
+        "Content-Length": "1786"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
