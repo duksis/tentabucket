@@ -38,7 +38,7 @@ defmodule Tentabucket.Mixfile do
   defp deps do
     [{ :httpoison, "~> 0.8" },
      { :exjsx, "~> 3.2" },
-     { :earmark, "~> 0.2", only: :docs },
+     { :earmark, "~> 1.2", only: :docs },
      { :ex_doc, "~> 0.11", only: :docs },
      { :inch_ex, only: :docs },
      { :excoveralls, "~> 0.4", only: :test },
