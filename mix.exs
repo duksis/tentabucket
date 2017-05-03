@@ -11,12 +11,12 @@ defmodule Tentabucket.Mixfile do
      elixir: "~> 1.2",
      name: "Tentabucket",
      description: @description,
-     package: package,
+     package: package(),
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      test_coverage: [tool: ExCoveralls],
      preferred_cli_env: ["coveralls": :test, "coveralls.detail": :test, "coveralls.post": :test],
-     deps: deps]
+     deps: deps()]
   end
 
   # Configuration for the OTP application
