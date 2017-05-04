@@ -22,7 +22,7 @@ defmodule Tentabucket do
   end
 
   def json_request(method, url, body \\ "", headers \\ [], options \\ []) do
-    request!(method, url, JSX.encode!(body), headers, options) |> process_response
+    request!(method, url, JSX.encode!(body), headers, [{:ssl, [versions: [:"tlsv1.2"]]} |options]) |> process_response
   end
 
   @spec url(client :: Client.t, path :: binary) :: binary
