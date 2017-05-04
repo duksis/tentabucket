@@ -43,7 +43,9 @@ defmodule Tentabucket.Mixfile do
      { :inch_ex, only: :docs },
      { :excoveralls, "~> 0.4", only: :test },
      { :exvcr, "~> 0.7", only: :test },
-     { :meck, "~> 0.8", only: :test } ]
+     { :meck, "~> 0.8", only: :test },
+     { :propcheck, "~> 0.0.1", only: :test},
+    ]
   end
 
   defp package do
