@@ -2,7 +2,7 @@ defmodule Tentabucket do
   use HTTPoison.Base
   alias Tentabucket.Client
 
-  @user_agent [{"User-agent", "tentabucket"}]
+  @default_headers [{"User-agent", "tentabucket"}, {"Content-Type", "application/json"}]
   @type response :: {integer, any} | :jsx.json_term
 
   @spec process_response(HTTPoison.Response.t) :: response
@@ -18,7 +18,7 @@ defmodule Tentabucket do
   end
 
   def _request(method, url, auth, body \\ "") do
-    json_request(method, url, body, authorization_header(auth, @user_agent))
+    json_request(method, url, body, authorization_header(auth, @default_headers))
   end
 
   def json_request(method, url, body \\ "", headers \\ [], options \\ []) do
