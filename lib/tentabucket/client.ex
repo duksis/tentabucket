@@ -1,7 +1,7 @@
 defmodule Tentabucket.Client do
-  defstruct endpoint: "https://api.bitbucket.org/2.0/"
+  defstruct endpoint: "https://api.bitbucket.org/2.0/", username: nil, password: nil, token: nil
 
-  @type t :: %__MODULE__{endpoint: binary}
+  @type t :: %__MODULE__{endpoint: binary, username: binary, password: binary, token: binary}
 
   @spec new() :: t
   def new(), do: %__MODULE__{}
